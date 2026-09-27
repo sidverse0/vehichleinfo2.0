@@ -1,8 +1,0 @@
-{
-  "builds": [
-    { "src": "vehichleapi.py", "use": "@vercel/python" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "vehichleapi.py" }
-  ]
-}
